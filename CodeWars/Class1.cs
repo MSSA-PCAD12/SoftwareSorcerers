@@ -8,7 +8,7 @@
             Array.Sort(nums);
 
             // return the sum
-            return nums[0] + nums[2];
+            return nums[0] + nums[1];
         }
     }
 }
