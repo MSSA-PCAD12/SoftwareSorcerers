@@ -1,8 +1,8 @@
 ﻿namespace CodeWars
 {
-    public class SumTwoLowestNumbers
+    public class SumTwoLowestNumbersKata
     {
-        public static int sumTwoLowestNumbers(int[] nums)
+        public static int SumTwoNumbers(int[] nums)
         {
             // sort the array from lowest to highest
             Array.Sort(nums);
