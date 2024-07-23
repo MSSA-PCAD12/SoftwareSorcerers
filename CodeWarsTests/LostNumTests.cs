@@ -19,7 +19,7 @@ namespace CodeWars.Tests
             var mixedList = new List<int>() { 3, 2, 4, 6, 7, 8, 1, 9 };
            
             // Act
-            var result = starting.Sum() - mixedList.Sum();
+            var result = LostNum.LostNumber(starting, mixedList);
 
             // Assert
             Assert.AreEqual(5, result);
