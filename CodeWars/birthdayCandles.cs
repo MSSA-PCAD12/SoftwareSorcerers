@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CodeWars
-{
-
-    
+{   
     public class birthdayCandles
     {
         //helper function
@@ -24,13 +22,13 @@ namespace CodeWars
 
             return intList;
         }
+
         //Main
         public static int BlowCandles(string str)
         {
             int count = 0;
             // convert string nums into List<int>
             List<int> intList = ConvertStringToIntList(str);
-
 
             while (intList.Count > 0)
             {
@@ -43,6 +41,7 @@ namespace CodeWars
                             intList[i]--;
                         }
                     }
+
                     count++;
                 }
                 else
@@ -54,5 +53,5 @@ namespace CodeWars
             return count; // Let's see how we gonna blow these candles...
         }
 
-}
+    }
 }
