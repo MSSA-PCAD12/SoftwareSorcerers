@@ -10,11 +10,11 @@ namespace CodeWars.Tests
 {
     [TestClass()]
 
-    public class SpinWordsMainTests
+    public class SpinWordsTests
         {
 
             [TestMethod()]
-            public static void Test1()
+            public static void SpinWordsMainTest1()
 
             {
 
