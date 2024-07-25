@@ -14,7 +14,7 @@ namespace CodeWars.Tests
         {
 
             [TestMethod()]
-            public static void SpinWordsMainTest1()
+            public void SpinWordsMainTest1()
 
             {
 
@@ -23,7 +23,7 @@ namespace CodeWars.Tests
             }
 
             [TestMethod()]
-            public static void Test2()
+            public void Test2()
 
             {
 
@@ -32,7 +32,7 @@ namespace CodeWars.Tests
             }
 
             [TestMethod()]
-            public static void Test3()
+            public void Test3()
 
             {
 
@@ -41,7 +41,7 @@ namespace CodeWars.Tests
             }
 
             [TestMethod()]
-            public static void Test4()
+            public void Test4()
 
             {
 
@@ -50,7 +50,7 @@ namespace CodeWars.Tests
             }
 
             [TestMethod()]
-            public static void Test5()
+            public void Test5()
 
             {
 
@@ -59,7 +59,7 @@ namespace CodeWars.Tests
             }
 
             [TestMethod()]
-            public static void Test6()
+            public void Test6()
 
             {
 
