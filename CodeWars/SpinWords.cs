@@ -43,11 +43,15 @@ namespace CodeWars
                 }
                 else
                 {
-                    strList.Add(sb.ToString());
+                    string str = Extension.Join(sb);
+                    strList.Add(str);
+                    //strList.Add(sb.ToString());
                     sb.Clear();
                 }
             }
-            strList.Add(sb.ToString());
+            string strEnd = Extension.Join(sb);
+            strList.Add(strEnd);
+            //strList.Add(sb.ToString());
             return strList;
         }
         public static string Join(StringBuilder sb)
@@ -66,10 +70,7 @@ namespace CodeWars
             }
             return str;
         }
-        //   public static string Join(StringBuilder sb) { // needs to be a char array
-        //     var phrase = sb.Aggregate((partialPhrase, word) => $"{partialPhrase} {word}");
-        //     return phrase;
-        //     }
+       
         public static string ReverseWord(string word)
         {
             StringBuilder sb = new StringBuilder();

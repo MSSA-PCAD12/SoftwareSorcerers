@@ -9,11 +9,10 @@ using System.Threading.Tasks;
 namespace CodeWars.Tests
 {
     [TestClass()]
-
     public class SpinWordsTests
         {
             [TestMethod()]
-            public void SpinWordsMainTest1()
+            public void Test1()
 
             {
                 Assert.AreEqual("emocleW", SpinWords.SpinWordsMain("Welcome"));
