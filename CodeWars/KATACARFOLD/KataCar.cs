@@ -92,6 +92,15 @@ namespace CodeWars.KATACARFOLD
             {
                 _fillLevel = InitialFuelLevel;
             }
+            public void Consume(double liters)
+                {
+                    _fillLevel -= liters; 
+                    
+                    if(_fillLevel < 0)
+                    {
+                        _fillLevel= 0;
+                    }
+                }
 
 
         }
