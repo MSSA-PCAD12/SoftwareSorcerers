@@ -83,7 +83,7 @@ namespace CodeWars.PlugBoard
 
 //    public class CharacterTranslator
 //    {
-//        private  List<Wire> wires;
+//        public  List<Wire> wires;
 
 //        public CharacterTranslator(IEnumerable<Wire> wires)
 //        {
@@ -105,7 +105,7 @@ namespace CodeWars.PlugBoard
 
 //    public class Plugboard
 //    {
-//        private  CharacterTranslator translator;
+//        public  CharacterTranslator translator;
 
 //        public Plugboard(string wires = "")
 //        {
