@@ -30,7 +30,7 @@ namespace CodeWars.CarKata
 
         public void Accelerate(int speed)
         {
-            if(!)
+            //if(!)
         }
 
         public void BrakeBy(int speed)
